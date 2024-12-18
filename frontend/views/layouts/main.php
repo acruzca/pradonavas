@@ -44,14 +44,14 @@ AppAsset::register($this);
         ]);
         $menuItems = [
             ['label' => 'Inicio', 'url' => ['/site/index']],
-            ['label' => 'Alojamiento', 'url' => ['/site/alojamiento']],
-            ['label' => 'Tarifas y Disponibilidad', 'url' => ['/site/tarifas']],
-            ['label' => 'Reservas', 'url' => ['/site/reservas']],
-            ['label' => 'Galeria', 'url' => ['/site/galeria']],
-            ['label' => 'Entorno y actividades', 'url' => ['/site/entorno']],
-            ['label' => 'Opiniones de nuestros clientes', 'url' => ['/site/opiniones']],
-            ['label' => 'Sobre Nosotros', 'url' => ['/site/about']],
-            ['label' => 'Contacto', 'url' => ['/site/contact']],
+            ['label' => 'Las Habitaciones', 'url' => ['/site/habitaciones']],
+            //['label' => 'Tarifas y Disponibilidad', 'url' => ['/site/tarifas']],
+            //['label' => 'Reservas', 'url' => ['/site/reservas']],
+            //['label' => 'Galeria', 'url' => ['/site/galeria']],
+            ['label' => 'Nuestro Entorno', 'url' => ['/site/entorno']],
+            //['label' => 'Opiniones de nuestros clientes', 'url' => ['/site/opiniones']],
+            //['label' => 'Sobre Nosotros', 'url' => ['/site/about']],
+            ['label' => 'Contacta', 'url' => ['/site/contacto']],
         ];
         if (Yii::$app->user->isGuest) {
             //$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];

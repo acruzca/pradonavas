@@ -13,13 +13,13 @@ return array (
     ),
     'bootstrap' => 'yii\\bootstrap5\\i18n\\TranslationBootstrap',
   ),
-  'yiisoft/yii2-faker' => 
+  'yiisoft/yii2-symfonymailer' => 
   array (
-    'name' => 'yiisoft/yii2-faker',
-    'version' => '2.0.5.0',
+    'name' => 'yiisoft/yii2-symfonymailer',
+    'version' => '2.0.4.0',
     'alias' => 
     array (
-      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker/src',
+      '@yii/symfonymailer' => $vendorDir . '/yiisoft/yii2-symfonymailer/src',
     ),
   ),
   'yiisoft/yii2-debug' => 
@@ -31,6 +31,15 @@ return array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
     ),
   ),
+  'yiisoft/yii2-faker' => 
+  array (
+    'name' => 'yiisoft/yii2-faker',
+    'version' => '2.0.5.0',
+    'alias' => 
+    array (
+      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker/src',
+    ),
+  ),
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
@@ -40,40 +49,22 @@ return array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
     ),
   ),
-  'yiisoft/yii2-symfonymailer' => 
+  'codemix/yii2-excelexport' => 
   array (
-    'name' => 'yiisoft/yii2-symfonymailer',
-    'version' => '2.0.4.0',
+    'name' => 'codemix/yii2-excelexport',
+    'version' => '2.8.2.0',
     'alias' => 
     array (
-      '@yii/symfonymailer' => $vendorDir . '/yiisoft/yii2-symfonymailer/src',
+      '@codemix/excelexport' => $vendorDir . '/codemix/yii2-excelexport/src',
     ),
   ),
-  'yiisoft/yii2-bootstrap4' => 
+  'yidas/yii2-bower-asset' => 
   array (
-    'name' => 'yiisoft/yii2-bootstrap4',
-    'version' => '2.0.11.0',
+    'name' => 'yidas/yii2-bower-asset',
+    'version' => '2.0.13.1',
     'alias' => 
     array (
-      '@yii/bootstrap4' => $vendorDir . '/yiisoft/yii2-bootstrap4/src',
-    ),
-  ),
-  'hail812/yii2-adminlte-widgets' => 
-  array (
-    'name' => 'hail812/yii2-adminlte-widgets',
-    'version' => '1.0.5.0',
-    'alias' => 
-    array (
-      '@hail812/adminlte/widgets' => $vendorDir . '/hail812/yii2-adminlte-widgets/src',
-    ),
-  ),
-  'hail812/yii2-adminlte3' => 
-  array (
-    'name' => 'hail812/yii2-adminlte3',
-    'version' => '1.1.9.0',
-    'alias' => 
-    array (
-      '@hail812/adminlte3' => $vendorDir . '/hail812/yii2-adminlte3/src',
+      '@yidas/yii2BowerAsset' => $vendorDir . '/yidas/yii2-bower-asset',
     ),
   ),
 );

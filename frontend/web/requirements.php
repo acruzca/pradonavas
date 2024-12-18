@@ -45,7 +45,7 @@ $requirementsChecker = new YiiRequirementChecker();
 $gdMemo = $imagickMemo = 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required for image CAPTCHA.';
 $gdOK = $imagickOK = false;
 
-if (extension_loaded('imagick')) {
+/*if (extension_loaded('imagick')) {
     $imagick = new Imagick();
     $imagickFormats = $imagick->queryFormats('PNG');
     if (in_array('PNG', $imagickFormats)) {
@@ -53,7 +53,7 @@ if (extension_loaded('imagick')) {
     } else {
         $imagickMemo = 'Imagick extension should be installed with PNG support in order to be used for image CAPTCHA.';
     }
-}
+}*/
 
 if (extension_loaded('gd')) {
     $gdInfo = gd_info();

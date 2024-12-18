@@ -9,8 +9,8 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
@@ -33,13 +33,12 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap5\\' => 15,
-            'yii\\bootstrap4\\' => 15,
             'yii\\' => 4,
+            'yidas\\yii2BowerAsset\\' => 21,
         ),
-        'h' => 
+        'm' => 
         array (
-            'hail812\\adminlte\\widgets\\' => 25,
-            'hail812\\adminlte3\\' => 18,
+            'mikehaertl\\tmp\\' => 15,
         ),
         'f' => 
         array (
@@ -48,11 +47,16 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'c' => 
         array (
             'common\\tests\\' => 13,
+            'codemix\\excelexport\\' => 20,
             'cebe\\markdown\\' => 14,
         ),
         'b' => 
         array (
             'backend\\tests\\' => 14,
+        ),
+        'Z' => 
+        array (
+            'ZipStream\\' => 10,
         ),
         'S' => 
         array (
@@ -78,11 +82,19 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         ),
         'P' => 
         array (
+            'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\Http\\Client\\' => 16,
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
+            'PhpOffice\\PhpSpreadsheet\\' => 25,
+        ),
+        'M' => 
+        array (
+            'MyCLabs\\Enum\\' => 13,
+            'Matrix\\' => 7,
         ),
         'G' => 
         array (
@@ -105,6 +117,7 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         ),
         'C' => 
         array (
+            'Complex\\' => 8,
             'Codeception\\PHPUnit\\' => 20,
             'Codeception\\Extension\\' => 22,
             'Codeception\\' => 12,
@@ -136,21 +149,17 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap5/src',
         ),
-        'yii\\bootstrap4\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap4/src',
-        ),
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
-        'hail812\\adminlte\\widgets\\' => 
+        'yidas\\yii2BowerAsset\\' => 
         array (
-            0 => __DIR__ . '/..' . '/hail812/yii2-adminlte-widgets/src',
+            0 => __DIR__ . '/..' . '/yidas/yii2-bower-asset',
         ),
-        'hail812\\adminlte3\\' => 
+        'mikehaertl\\tmp\\' => 
         array (
-            0 => __DIR__ . '/..' . '/hail812/yii2-adminlte3/src',
+            0 => __DIR__ . '/..' . '/mikehaertl/php-tmpfile/src',
         ),
         'frontend\\tests\\' => 
         array (
@@ -162,6 +171,10 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
             0 => __DIR__ . '/../..' . '/common/tests',
             1 => __DIR__ . '/../..' . '/common/tests/_support',
         ),
+        'codemix\\excelexport\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codemix/yii2-excelexport/src',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
@@ -170,6 +183,10 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/../..' . '/backend/tests',
             1 => __DIR__ . '/../..' . '/backend/tests/_support',
+        ),
+        'ZipStream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -247,6 +264,10 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/..' . '/symfony/browser-kit',
         ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -255,6 +276,10 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
         'Psr\\EventDispatcher\\' => 
         array (
@@ -267,6 +292,18 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'PhpOffice\\PhpSpreadsheet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
+        ),
+        'MyCLabs\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
+        ),
+        'Matrix\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -286,7 +323,7 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         ),
         'Doctrine\\Deprecations\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations',
+            0 => __DIR__ . '/..' . '/doctrine/deprecations/src',
         ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
@@ -295,6 +332,10 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Complex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
         ),
         'Codeception\\PHPUnit\\' => 
         array (
@@ -978,7 +1019,7 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/type/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/type/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'Stringable' => __DIR__ . '/..' . '/myclabs/php-enum/stubs/Stringable.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
         'TheSeer\\Tokenizer\\NamespaceUriException' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUriException.php',

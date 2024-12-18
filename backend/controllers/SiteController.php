@@ -15,7 +15,8 @@ use yii\web\Response;
 class SiteController extends Controller
 {
     /**
-     * {@inheritdoc}
+     * Summary of behaviors
+     * @return array[]
      */
     public function behaviors()
     {
@@ -44,7 +45,8 @@ class SiteController extends Controller
     }
 
     /**
-     * {@inheritdoc}
+     * Summary of actions
+     * @return array{class: string[]}
      */
     public function actions()
     {
@@ -56,8 +58,7 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays homepage.
-     *
+     * Summary of actionIndex
      * @return string
      */
     public function actionIndex()
@@ -66,9 +67,8 @@ class SiteController extends Controller
     }
 
     /**
-     * Login action.
-     *
-     * @return string|Response
+     * Summary of actionLogin
+     * @return string|Yii\web\Response
      */
     public function actionLogin()
     {
@@ -91,9 +91,8 @@ class SiteController extends Controller
     }
 
     /**
-     * Logout action.
-     *
-     * @return Response
+     * Summary of actionLogout
+     * @return Yii\web\Response
      */
     public function actionLogout()
     {
@@ -102,6 +101,10 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
+    /**
+     * Summary of actionReservas
+     * @return string
+     */
     public function actionReservas()
     {
         return $this->render('reservas');

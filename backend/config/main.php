@@ -38,6 +38,11 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
+        'controllerMap' => [
+            'calendar' => 'backend\controllers\CalendarController',
+        ],
+
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
