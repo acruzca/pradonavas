@@ -111,3 +111,10 @@ CREATE TABLE fiscal_summary (
     start_date DATE,
     end_date DATE
 );
+
+CREATE TABLE session
+(
+    id CHAR(40) NOT NULL PRIMARY KEY,
+    expire INTEGER,
+    data BLOB
+)

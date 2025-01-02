@@ -33,12 +33,16 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap5\\' => 15,
+            'yii\\bootstrap4\\' => 15,
             'yii\\' => 4,
-            'yidas\\yii2BowerAsset\\' => 21,
         ),
         'm' => 
         array (
-            'mikehaertl\\tmp\\' => 15,
+            'moonland\\phpexcel\\' => 18,
+        ),
+        'h' => 
+        array (
+            'hail812\\adminlte\\widgets\\' => 25,
         ),
         'f' => 
         array (
@@ -47,7 +51,6 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'c' => 
         array (
             'common\\tests\\' => 13,
-            'codemix\\excelexport\\' => 20,
             'cebe\\markdown\\' => 14,
         ),
         'b' => 
@@ -149,17 +152,21 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap5/src',
         ),
+        'yii\\bootstrap4\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap4/src',
+        ),
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
-        'yidas\\yii2BowerAsset\\' => 
+        'moonland\\phpexcel\\' => 
         array (
-            0 => __DIR__ . '/..' . '/yidas/yii2-bower-asset',
+            0 => __DIR__ . '/..' . '/moonlandsoft/yii2-phpexcel',
         ),
-        'mikehaertl\\tmp\\' => 
+        'hail812\\adminlte\\widgets\\' => 
         array (
-            0 => __DIR__ . '/..' . '/mikehaertl/php-tmpfile/src',
+            0 => __DIR__ . '/..' . '/hail812/yii2-adminlte-widgets/src',
         ),
         'frontend\\tests\\' => 
         array (
@@ -170,10 +177,6 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         array (
             0 => __DIR__ . '/../..' . '/common/tests',
             1 => __DIR__ . '/../..' . '/common/tests/_support',
-        ),
-        'codemix\\excelexport\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/codemix/yii2-excelexport/src',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -347,8 +350,8 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
-            1 => __DIR__ . '/..' . '/codeception/stub/src',
+            0 => __DIR__ . '/..' . '/codeception/stub/src',
+            1 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
             2 => __DIR__ . '/..' . '/codeception/verify/src/Codeception',
         ),
     );
@@ -449,6 +452,7 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'PHPUnit\\Framework\\Constraint\\LogicalXor' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalXor.php',
         'PHPUnit\\Framework\\Constraint\\ObjectEquals' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Object/ObjectEquals.php',
         'PHPUnit\\Framework\\Constraint\\ObjectHasAttribute' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Object/ObjectHasAttribute.php',
+        'PHPUnit\\Framework\\Constraint\\ObjectHasProperty' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Object/ObjectHasProperty.php',
         'PHPUnit\\Framework\\Constraint\\Operator' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Operator/Operator.php',
         'PHPUnit\\Framework\\Constraint\\RegularExpression' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/String/RegularExpression.php',
         'PHPUnit\\Framework\\Constraint\\SameSize' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Cardinality/SameSize.php',
@@ -679,8 +683,8 @@ class ComposerStaticInit2158b2fbf2c2f964ea5d76c3986297c9
         'PHPUnit\\TextUI\\XmlConfiguration\\Migrator' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrator.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveAttributesFromFilterWhitelistToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromFilterWhitelistToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveAttributesFromRootToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromRootToCoverage.php',
-        'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistDirectoriesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistDirectoriesToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistExcludesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php',
+        'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistIncludesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistIncludesToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\PHPUnit' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/PHPUnit/PHPUnit.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\Php' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/PHP/Php.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\PhpHandler' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/PHP/PhpHandler.php',

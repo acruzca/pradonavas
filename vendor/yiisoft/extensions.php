@@ -3,16 +3,6 @@
 $vendorDir = dirname(__DIR__);
 
 return array (
-  'yiisoft/yii2-bootstrap5' => 
-  array (
-    'name' => 'yiisoft/yii2-bootstrap5',
-    'version' => '2.0.4.0',
-    'alias' => 
-    array (
-      '@yii/bootstrap5' => $vendorDir . '/yiisoft/yii2-bootstrap5/src',
-    ),
-    'bootstrap' => 'yii\\bootstrap5\\i18n\\TranslationBootstrap',
-  ),
   'yiisoft/yii2-symfonymailer' => 
   array (
     'name' => 'yiisoft/yii2-symfonymailer',
@@ -31,15 +21,6 @@ return array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
     ),
   ),
-  'yiisoft/yii2-faker' => 
-  array (
-    'name' => 'yiisoft/yii2-faker',
-    'version' => '2.0.5.0',
-    'alias' => 
-    array (
-      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker/src',
-    ),
-  ),
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
@@ -49,22 +30,50 @@ return array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
     ),
   ),
-  'codemix/yii2-excelexport' => 
+  'yiisoft/yii2-bootstrap4' => 
   array (
-    'name' => 'codemix/yii2-excelexport',
-    'version' => '2.8.2.0',
+    'name' => 'yiisoft/yii2-bootstrap4',
+    'version' => '2.0.11.0',
     'alias' => 
     array (
-      '@codemix/excelexport' => $vendorDir . '/codemix/yii2-excelexport/src',
+      '@yii/bootstrap4' => $vendorDir . '/yiisoft/yii2-bootstrap4/src',
     ),
   ),
-  'yidas/yii2-bower-asset' => 
+  'hail812/yii2-adminlte-widgets' => 
   array (
-    'name' => 'yidas/yii2-bower-asset',
-    'version' => '2.0.13.1',
+    'name' => 'hail812/yii2-adminlte-widgets',
+    'version' => 'dev-main',
     'alias' => 
     array (
-      '@yidas/yii2BowerAsset' => $vendorDir . '/yidas/yii2-bower-asset',
+      '@hail812/adminlte/widgets' => $vendorDir . '/hail812/yii2-adminlte-widgets/src',
+    ),
+  ),
+  'moonlandsoft/yii2-phpexcel' => 
+  array (
+    'name' => 'moonlandsoft/yii2-phpexcel',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@moonland/phpexcel' => $vendorDir . '/moonlandsoft/yii2-phpexcel',
+    ),
+  ),
+  'yiisoft/yii2-bootstrap5' => 
+  array (
+    'name' => 'yiisoft/yii2-bootstrap5',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@yii/bootstrap5' => $vendorDir . '/yiisoft/yii2-bootstrap5/src',
+    ),
+    'bootstrap' => 'yii\\bootstrap5\\i18n\\TranslationBootstrap',
+  ),
+  'yiisoft/yii2-faker' => 
+  array (
+    'name' => 'yiisoft/yii2-faker',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker/src',
     ),
   ),
 );
